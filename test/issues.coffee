@@ -79,7 +79,7 @@ suite 'issue', ->
     expect(@input.val()).to.equal('05/25/1905 21:52:14 0')
 
   test '126 - Fix Uncaught TypeError: Cannot read property \'top\' of undefined', ->
-    # https://github.com/tarruda/bootstrap-datetimepicker/issues/45
+    # https://github.com/tarruda/bootstrap-datetimepicker/issues/126
     # open datetimepicker
     @input.click()
     expect(@widget.is ':visible').to.be.true
